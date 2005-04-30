@@ -1,0 +1,4 @@
+external-url-viewer "urlview"
+browser firefox
+player mpv
+auto-reload yes

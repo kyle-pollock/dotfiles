@@ -1,0 +1,12 @@
+*.pyc
+editor/.vim/.netrwhist
+editor/.vim/autoload/
+editor/.vim/spell/
+editor/.vim/sessions/
+editor/.vim/plugged/
+*.log
+*.swp
+*.db
+history.*
+rss/.newsboat/cache.db.lock
+rss/.newsboat/queue

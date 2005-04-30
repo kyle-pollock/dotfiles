@@ -1,0 +1,8 @@
+export BROWSER="firefox"
+export EDITOR="nvim"
+export GOBIN="$HOME/go/bin"
+export GOPATH="$HOME/go"
+export PAGER="less"
+export PATH="$HOME/bin:$GOBIN:$HOME/.local/bin:$PATH"
+export READER="zathura"
+export TERMINAL="st"
