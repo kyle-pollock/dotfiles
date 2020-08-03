@@ -23,6 +23,6 @@
 [hub]
 	protocol = ssh
 [commit]
-	gpgsign = false
+	gpgsign = true
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
