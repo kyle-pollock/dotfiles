@@ -1,0 +1,63 @@
+[submodule "editor/.vim/pack/bundle/start/vim-peekaboo"]
+	path = editor/.vim/pack/bundle/start/vim-peekaboo
+	url = git@github.com:junegunn/vim-peekaboo.git
+[submodule "editor/.vim/pack/bundle/start/vim-abolish"]
+	path = editor/.vim/pack/bundle/start/vim-abolish
+	url = git@github.com:tpope/vim-abolish.git
+[submodule "editor/.vim/pack/bundle/start/vim-commentary"]
+	path = editor/.vim/pack/bundle/start/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "editor/.vim/pack/bundle/start/vim-eunuch"]
+	path = editor/.vim/pack/bundle/start/vim-eunuch
+	url = git@github.com:tpope/vim-eunuch.git
+[submodule "editor/.vim/pack/bundle/start/vim-jdaddy"]
+	path = editor/.vim/pack/bundle/start/vim-jdaddy
+	url = git@github.com:tpope/vim-jdaddy.git
+[submodule "editor/.vim/pack/bundle/start/vim-repeat"]
+	path = editor/.vim/pack/bundle/start/vim-repeat
+	url = git@github.com:tpope/vim-repeat.git
+[submodule "editor/.vim/pack/bundle/start/vim-surround"]
+	path = editor/.vim/pack/bundle/start/vim-surround
+	url = git@github.com:tpope/vim-surround.git
+[submodule "editor/.vim/pack/bundle/start/vim-unimpaired"]
+	path = editor/.vim/pack/bundle/start/vim-unimpaired
+	url = git@github.com:tpope/vim-unimpaired.git
+[submodule "editor/.vim/pack/bundle/start/vim-gitgutter"]
+	path = editor/.vim/pack/bundle/start/vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "editor/.vim/pack/bundle/start/vim-fugitive"]
+	path = editor/.vim/pack/bundle/start/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive.git
+[submodule "editor/.vim/pack/bundle/start/vim-rhubarb"]
+	path = editor/.vim/pack/bundle/start/vim-rhubarb
+	url = git@github.com:tpope/vim-rhubarb.git
+[submodule "editor/.vim/pack/bundle/start/vim-airline"]
+	path = editor/.vim/pack/bundle/start/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "editor/.vim/pack/bundle/start/gruvbox"]
+	path = editor/.vim/pack/bundle/start/gruvbox
+	url = git@github.com:morhetz/gruvbox.git
+[submodule "editor/.vim/pack/bundle/start/vim-sensible"]
+	path = editor/.vim/pack/bundle/start/vim-sensible
+	url = git@github.com:tpope/vim-sensible.git
+[submodule "editor/.vim/pack/bundle/start/fzf.vim"]
+	path = editor/.vim/pack/bundle/start/fzf.vim
+	url = git@github.com:junegunn/fzf.vim.git
+[submodule "editor/.vim/pack/bundle/start/ultisnips"]
+	path = editor/.vim/pack/bundle/start/ultisnips
+	url = git@github.com:SirVer/ultisnips.git
+[submodule "editor/.vim/pack/bundle/start/vim-snippets"]
+	path = editor/.vim/pack/bundle/start/vim-snippets
+	url = git@github.com:honza/vim-snippets.git
+[submodule "editor/.vim/pack/bundle/start/deoplete.nvim"]
+	path = editor/.vim/pack/bundle/start/deoplete.nvim
+	url = git@github.com:Shougo/deoplete.nvim.git
+[submodule "editor/.vim/pack/bundle/start/nvim-lsp"]
+	path = editor/.vim/pack/bundle/start/nvim-lsp
+	url = git@github.com:neovim/nvim-lsp.git
+[submodule "editor/.vim/pack/bundle/start/vim-editorconfig"]
+	path = editor/.vim/pack/bundle/start/vim-editorconfig
+	url = git@github.com:sgur/vim-editorconfig.git
+[submodule "editor/.vim/pack/bundle/start/vim-prettier"]
+	path = editor/.vim/pack/bundle/start/vim-prettier
+	url = git@github.com:prettier/vim-prettier.git
