@@ -7,7 +7,8 @@ set number
 set smartcase
 set spell
 set updatetime=100
-set wildmode=longest,list
+set wildmenu
+set wildmode=full
 
 let g:deoplete#enable_at_startup = 1
 nnoremap <C-p> :<C-u>FZF<CR>
