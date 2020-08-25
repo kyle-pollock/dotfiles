@@ -5,12 +5,12 @@ set ignorecase
 set list
 set number
 set smartcase
-set spell
 set updatetime=100
-set wildmenu
 set wildmode=full
 
+let test#strategy = "dispatch"
 let g:deoplete#enable_at_startup = 1
+
 nnoremap <C-p> :<C-u>FZF<CR>
 nnoremap <silent> gd    <cmd>lua vim.lsp.buf.declaration()<CR>
 nnoremap <silent> <c-]> <cmd>lua vim.lsp.buf.definition()<CR>

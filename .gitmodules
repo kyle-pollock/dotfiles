@@ -61,3 +61,18 @@
 [submodule "editor/.vim/pack/bundle/start/vim-prettier"]
 	path = editor/.vim/pack/bundle/start/vim-prettier
 	url = git@github.com:prettier/vim-prettier.git
+[submodule "editor/.vim/pack/bundle/start/vim-obsession"]
+	path = editor/.vim/pack/bundle/start/vim-obsession
+	url = git@github.com:tpope/vim-obsession.git
+[submodule "editor/.vim/pack/bundle/start/vim-apathy"]
+	path = editor/.vim/pack/bundle/start/vim-apathy
+	url = git@github.com:tpope/vim-apathy.git
+[submodule "editor/.vim/pack/bundle/start/vim-test"]
+	path = editor/.vim/pack/bundle/start/vim-test
+	url = git@github.com:vim-test/vim-test.git
+[submodule "editor/.vim/pack/bundle/start/vim-projectionist"]
+	path = editor/.vim/pack/bundle/start/vim-projectionist
+	url = git@github.com:tpope/vim-projectionist.git
+[submodule "editor/.vim/pack/bundle/start/vim-dispatch"]
+	path = editor/.vim/pack/bundle/start/vim-dispatch
+	url = git@github.com:tpope/vim-dispatch.git
