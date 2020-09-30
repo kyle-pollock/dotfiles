@@ -76,3 +76,18 @@
 [submodule "editor/.vim/pack/bundle/start/vim-dispatch"]
 	path = editor/.vim/pack/bundle/start/vim-dispatch
 	url = git@github.com:tpope/vim-dispatch.git
+[submodule "editor/.vim/pack/bundle/start/vim-javascript"]
+	path = editor/.vim/pack/bundle/start/vim-javascript
+	url = git@github.com:pangloss/vim-javascript.git
+[submodule "editor/.vim/pack/bundle/start/typescript-vim"]
+	path = editor/.vim/pack/bundle/start/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim
+[submodule "editor/.vim/pack/bundle/start/vim-styled-components"]
+	path = editor/.vim/pack/bundle/start/vim-styled-components
+	url = git@github.com:styled-components/vim-styled-components
+[submodule "editor/.vim/pack/bundle/start/vim-graphql"]
+	path = editor/.vim/pack/bundle/start/vim-graphql
+	url = git@github.com:jparise/vim-graphql
+[submodule "editor/.vim/pack/bundle/start/vim-jsx-typescript"]
+	path = editor/.vim/pack/bundle/start/vim-jsx-typescript
+	url = git@github.com:peitalin/vim-jsx-typescript
