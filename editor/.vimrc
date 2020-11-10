@@ -29,10 +29,13 @@ nnoremap <silent> gr    <cmd>lua vim.lsp.buf.references()<CR>
 nnoremap <silent> g0    <cmd>lua vim.lsp.buf.document_symbol()<CR>
 nnoremap <silent> gW    <cmd>lua vim.lsp.buf.workspace_symbol()<CR>
 nnoremap <silent> gR    <cmd>lua vim.lsp.buf.rename()<CR>
+nnoremap <silent> gA    <cmd>lua vim.lsp.buf.code_action()<CR>
 
 autocmd Filetype gitcommit setlocal textwidth=72
 autocmd Filetype go,python setlocal omnifunc=v:lua.vim.lsp.omnifunc
 autocmd BufWritePre *.go,*.py lua vim.lsp.buf.formatting_sync(nil, 1000)
+autocmd CursorHold *.go,*.py lua vim.lsp.util.show_line_diagnostics()
+autocmd BufWritePre *.go lua vim.lsp.buf.code_action({ source = { organizeImports = true } })
 
 packadd nvim-lsp
 lua require'nvim_lsp'.gopls.setup{}
