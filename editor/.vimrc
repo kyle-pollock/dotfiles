@@ -1,4 +1,5 @@
 colorscheme gruvbox
+set termguicolors
 set background=dark
 set hlsearch
 set ignorecase
@@ -30,14 +31,13 @@ nnoremap <silent> g0    <cmd>lua vim.lsp.buf.document_symbol()<CR>
 nnoremap <silent> gW    <cmd>lua vim.lsp.buf.workspace_symbol()<CR>
 nnoremap <silent> gR    <cmd>lua vim.lsp.buf.rename()<CR>
 nnoremap <silent> gA    <cmd>lua vim.lsp.buf.code_action()<CR>
+nnoremap <silent> gZ    <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
 
 autocmd Filetype gitcommit setlocal textwidth=72
 autocmd Filetype go,python setlocal omnifunc=v:lua.vim.lsp.omnifunc
 autocmd BufWritePre *.go,*.py lua vim.lsp.buf.formatting_sync(nil, 1000)
-autocmd CursorHold *.go,*.py lua vim.lsp.util.show_line_diagnostics()
 autocmd BufWritePre *.go lua vim.lsp.buf.code_action({ source = { organizeImports = true } })
 
 packadd nvim-lsp
-lua require'nvim_lsp'.gopls.setup{}
-lua require'nvim_lsp'.pyls.setup{}
-lua require'nvim_lsp'.tsserver.setup{}
+lua require'lspconfig'.gopls.setup{}
+lua require'lspconfig'.tsserver.setup{}
