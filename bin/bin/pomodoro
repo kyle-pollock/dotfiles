@@ -1,2 +1,2 @@
 #!/bin/sh
-sleep 1500 && echo $'\a'
+sleep 1200 && echo $'\a'
