@@ -6,6 +6,7 @@
 	path = ~/work/.gitconfig
 [core]
 	autocrlf = input
+	excludesfile = ~/.gitignore
 [merge]
 	tool = vimdiff
 [color]
