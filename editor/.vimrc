@@ -11,6 +11,8 @@ set wildmode=full
 
 let test#strategy = "dispatch"
 let g:deoplete#enable_at_startup = 1
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
 
 nmap <silent> t<C-n> :TestNearest<CR>
 nmap <silent> t<C-f> :TestFile<CR>
