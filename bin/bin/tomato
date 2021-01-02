@@ -1,0 +1,8 @@
+#!/bin/sh
+echo "🍅" >/tmp/tomato
+
+duration=20m
+if [ $# -eq 1 ]; then
+  duration=$1
+fi
+termdown $duration && $TERM -e less /tmp/tomato
