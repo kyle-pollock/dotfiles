@@ -1,7 +1,7 @@
 source /usr/local/share/antigen/antigen.zsh
 antigen bundle zsh-users/zsh-completions
 antigen bundle zsh-users/zsh-autosuggestions
-antigen theme unixchad/shtr0m
+antigen theme kyle-pollock/shtr0m
 antigen apply
 
 GPG_TTY=$(tty)
