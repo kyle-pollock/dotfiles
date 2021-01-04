@@ -88,3 +88,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-jsx-typescript"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-jsx-typescript
 	url = git@github.com:peitalin/vim-jsx-typescript
+[submodule "nvim/.config/nvim/pack/bundle/start/vim-editorconfig"]
+	path = nvim/.config/nvim/pack/bundle/start/vim-editorconfig
+	url = git@github.com:sgur/vim-editorconfig.git
