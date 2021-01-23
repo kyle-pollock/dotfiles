@@ -35,10 +35,11 @@ nnoremap <silent> gA    <cmd>lua vim.lsp.buf.code_action()<CR>
 nnoremap <silent> gZ    <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
 
 autocmd Filetype gitcommit setlocal textwidth=72
-autocmd Filetype go setlocal omnifunc=v:lua.vim.lsp.omnifunc
+autocmd Filetype go,php setlocal omnifunc=v:lua.vim.lsp.omnifunc
 autocmd BufWritePre *.go lua vim.lsp.buf.formatting_sync(nil, 1000)
 autocmd BufWritePre *.go lua vim.lsp.buf.code_action({ source = { organizeImports = true } })
 
 packadd nvim-lsp
 lua require'lspconfig'.gopls.setup{}
 lua require'lspconfig'.tsserver.setup{}
+lua require'lspconfig'.intelephense.setup{}
