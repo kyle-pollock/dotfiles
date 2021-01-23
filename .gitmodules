@@ -61,15 +61,9 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-obsession"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-obsession
 	url = git@github.com:tpope/vim-obsession.git
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-apathy"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-apathy
-	url = git@github.com:tpope/vim-apathy.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-test"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-test
 	url = git@github.com:vim-test/vim-test.git
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-dispatch"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-dispatch
-	url = git@github.com:tpope/vim-dispatch.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-editorconfig"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-editorconfig
 	url = git@github.com:sgur/vim-editorconfig.git
