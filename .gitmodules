@@ -70,18 +70,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-dispatch"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-dispatch
 	url = git@github.com:tpope/vim-dispatch.git
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-javascript"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-javascript
-	url = git@github.com:pangloss/vim-javascript.git
-[submodule "nvim/.config/nvim/pack/bundle/start/typescript-vim"]
-	path = nvim/.config/nvim/pack/bundle/start/typescript-vim
-	url = git@github.com:leafgarland/typescript-vim
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-graphql"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-graphql
-	url = git@github.com:jparise/vim-graphql
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-jsx-typescript"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-jsx-typescript
-	url = git@github.com:peitalin/vim-jsx-typescript
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-editorconfig"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-editorconfig
 	url = git@github.com:sgur/vim-editorconfig.git
