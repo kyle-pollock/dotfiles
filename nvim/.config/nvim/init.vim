@@ -9,7 +9,9 @@ set smartcase
 set updatetime=100
 set wildmode=full
 
-let test#strategy = "dispatch"
+let g:prettier#autoformat = 1
+let g:prettier#autoformat_require_pragma = 0
+let g:prettier#autoformat_config_present = 1
 let g:deoplete#enable_at_startup = 1
 
 nmap <silent> t<C-n> :TestNearest<CR>
