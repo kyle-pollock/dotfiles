@@ -76,9 +76,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/typescript-vim"]
 	path = nvim/.config/nvim/pack/bundle/start/typescript-vim
 	url = git@github.com:leafgarland/typescript-vim
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-styled-components"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-styled-components
-	url = git@github.com:styled-components/vim-styled-components
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-graphql"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-graphql
 	url = git@github.com:jparise/vim-graphql
