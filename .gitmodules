@@ -67,9 +67,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-test"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-test
 	url = git@github.com:vim-test/vim-test.git
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-projectionist"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-projectionist
-	url = git@github.com:tpope/vim-projectionist.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-dispatch"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-dispatch
 	url = git@github.com:tpope/vim-dispatch.git
