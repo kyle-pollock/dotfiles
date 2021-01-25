@@ -67,3 +67,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-editorconfig"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-editorconfig
 	url = git@github.com:sgur/vim-editorconfig.git
+[submodule "nvim/.config/nvim/pack/bundle/start/vim-jsx-pretty"]
+	path = nvim/.config/nvim/pack/bundle/start/vim-jsx-pretty
+	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
