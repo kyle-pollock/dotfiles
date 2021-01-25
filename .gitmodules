@@ -73,3 +73,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/nord-vim"]
 	path = nvim/.config/nvim/pack/bundle/start/nord-vim
 	url = git@github.com:arcticicestudio/nord-vim.git
+[submodule "nvim/.config/nvim/pack/bundle/start/vim"]
+	path = nvim/.config/nvim/pack/bundle/start/vim
+	url = git@github.com:dracula/vim.git
