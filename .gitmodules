@@ -76,3 +76,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim"]
 	path = nvim/.config/nvim/pack/bundle/start/vim
 	url = git@github.com:dracula/vim.git
+[submodule "nvim/.config/nvim/pack/bundle/start/onedark.vim"]
+	path = nvim/.config/nvim/pack/bundle/start/onedark.vim
+	url = git@github.com:joshdick/onedark.vim.git
