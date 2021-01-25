@@ -173,7 +173,7 @@ font:
 #draw_bold_text_with_bright_colors: false
 
 # Colors (gruvbox for the summer)
-colors:
+#colors:
   # Default colors
   # primary:
     # hard contrast: background = '#1d2021'
