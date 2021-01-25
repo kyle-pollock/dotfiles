@@ -9,8 +9,6 @@ set smartcase
 set updatetime=100
 set wildmode=full
 
-let g:prettier#autoformat_require_pragma = 0
-let g:prettier#autoformat_config_present = 1
 let g:deoplete#enable_at_startup = 1
 
 nmap <silent> t<C-n> :TestNearest<CR>
@@ -34,12 +32,8 @@ nnoremap <silent> gR    <cmd>lua vim.lsp.buf.rename()<CR>
 nnoremap <silent> gA    <cmd>lua vim.lsp.buf.code_action()<CR>
 nnoremap <silent> gZ    <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
 
-autocmd Filetype gitcommit setlocal textwidth=72
-autocmd Filetype go,php setlocal omnifunc=v:lua.vim.lsp.omnifunc
-autocmd BufWritePre *.go lua vim.lsp.buf.formatting_sync(nil, 1000)
-autocmd BufWritePre *.go lua vim.lsp.buf.code_action({ source = { organizeImports = true } })
-
-packadd nvim-lsp
-lua require'lspconfig'.gopls.setup{}
-lua require'lspconfig'.tsserver.setup{}
-lua require'lspconfig'.intelephense.setup{}
+lua << EOF
+require'lspconfig'.gopls.setup{}
+require'lspconfig'.tsserver.setup{}
+require'lspconfig'.intelephense.setup{}
+EOF
