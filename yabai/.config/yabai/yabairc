@@ -44,24 +44,7 @@ yabai -m config left_padding                 12
 yabai -m config right_padding                12
 yabai -m config window_gap                   06
 
-yabai -m space 1 --label term
-yabai -m space 2 --label web
-yabai -m space 3 --label chat
-yabai -m space 4 --label mail
-yabai -m space 5 --label post
-yabai -m space 6 --label zoom
-yabai -m space 7 --label signal
-
-yabai -m rule --add app="^Firefox$" space=web
-yabai -m rule --add app="^Slack$" space=chat
-yabai -m rule --add app="^Mail$" space=mail
-yabai -m rule --add app="^Calendar$" space=mail
-yabai -m rule --add app="^Postman$" space=post
-yabai -m rule --add app="^Zoom$" space=zoom
-yabai -m rule --add app="^Signal$" space=signal
 yabai -m rule --add app="^System Preferences$" manage=off
-
-SPACEBAR_HEIGHT=$(spacebar -m config height)
-yabai -m config external_bar all:$SPACEBAR_HEIGHT:0
+yabai -m rule --add app="Edge" manage=off
 
 echo "yabai configuration loaded.."
