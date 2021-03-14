@@ -14,6 +14,24 @@ super + @space
 super + Escape
 	pkill -USR1 -x sxhkd
 
+XF86MonBrightness{Down,Up}
+	xbacklight {-dec,-inc} 5
+
+XF86Audio{Lower,Raise}Volume
+	pactl set-sink-volume @DEFAULT_SINK@ {-,+}5%
+
+XF86AudioMute
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
+
+XF86AudioMicMute
+	pactl set-source-mute @DEFAULT_SOURCE@ toggle
+
+XF86Audio{Prev,Next}
+	mpc -q {prev,next}
+
+ctrl + alt + l
+	slock
+
 #
 # bspwm hotkeys
 #
