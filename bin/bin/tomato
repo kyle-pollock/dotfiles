@@ -5,10 +5,9 @@ if [ $# -eq 1 ]; then
   duration=$1
 fi
 
-termdown $duration 
+termdown $duration
 if [ "$(uname)" == "Darwin" ]; then
   osascript -e 'display alert "Tomato up!" message "🍅"'
 else
-  echo "🍅" >/tmp/tomato
-  $TERM -e less /tmp/tomato
+  notify-send -u critical "🍅 Tomato Up! 🍅"
 fi
