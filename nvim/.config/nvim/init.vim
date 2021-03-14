@@ -1,4 +1,4 @@
-colorscheme nord
+colorscheme gruvbox
 set termguicolors
 set background=dark
 set hlsearch
