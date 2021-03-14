@@ -15,15 +15,14 @@
 ;   The README contains a lot of information
 ;
 ;==========================================================
-;
+
 [colors]
 background = #282828
 background-alt = #444
 foreground = #ebdbb2
 foreground-alt = #555
-primary = #ffb52a
-secondary = #e60053
-alert = #bd2c40
+primary = #98971a
+alert = #cc241d
 
 [bar/top]
 background = ${colors.background}
