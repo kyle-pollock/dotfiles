@@ -77,7 +77,6 @@ icon-next = 
 label-song-maxlen = 25
 label-song-ellipsis = true
 
-
 [module/pulseaudio]
 type = internal/pulseaudio
 
