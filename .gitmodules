@@ -37,9 +37,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/gruvbox"]
 	path = nvim/.config/nvim/pack/bundle/start/gruvbox
 	url = git@github.com:morhetz/gruvbox.git
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-sensible"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-sensible
-	url = git@github.com:tpope/vim-sensible.git
 [submodule "nvim/.config/nvim/pack/bundle/start/fzf.vim"]
 	path = nvim/.config/nvim/pack/bundle/start/fzf.vim
 	url = git@github.com:junegunn/fzf.vim.git
@@ -64,18 +61,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-test"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-test
 	url = git@github.com:vim-test/vim-test.git
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-editorconfig"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-editorconfig
-	url = git@github.com:sgur/vim-editorconfig.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-jsx-pretty"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-jsx-pretty
 	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
-[submodule "nvim/.config/nvim/pack/bundle/start/nord-vim"]
-	path = nvim/.config/nvim/pack/bundle/start/nord-vim
-	url = git@github.com:arcticicestudio/nord-vim.git
-[submodule "nvim/.config/nvim/pack/bundle/start/vim"]
-	path = nvim/.config/nvim/pack/bundle/start/vim
-	url = git@github.com:dracula/vim.git
-[submodule "nvim/.config/nvim/pack/bundle/start/onedark.vim"]
-	path = nvim/.config/nvim/pack/bundle/start/onedark.vim
-	url = git@github.com:joshdick/onedark.vim.git
