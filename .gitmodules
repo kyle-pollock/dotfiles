@@ -34,9 +34,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-airline"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-airline
 	url = git@github.com:vim-airline/vim-airline.git
-[submodule "nvim/.config/nvim/pack/bundle/start/gruvbox"]
-	path = nvim/.config/nvim/pack/bundle/start/gruvbox
-	url = git@github.com:morhetz/gruvbox.git
 [submodule "nvim/.config/nvim/pack/bundle/start/fzf.vim"]
 	path = nvim/.config/nvim/pack/bundle/start/fzf.vim
 	url = git@github.com:junegunn/fzf.vim.git
