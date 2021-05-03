@@ -1,66 +1,66 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-peekaboo"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-peekaboo
-	url = git@github.com:junegunn/vim-peekaboo.git
+	url = https://github.com/junegunn/vim-peekaboo.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-abolish"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-abolish
-	url = git@github.com:tpope/vim-abolish.git
+	url = https://github.com/tpope/vim-abolish.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-commentary"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-commentary
-	url = git@github.com:tpope/vim-commentary.git
+	url = https://github.com/tpope/vim-commentary.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-eunuch"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-eunuch
-	url = git@github.com:tpope/vim-eunuch.git
+	url = https://github.com/tpope/vim-eunuch.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-jdaddy"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-jdaddy
-	url = git@github.com:tpope/vim-jdaddy.git
+	url = https://github.com/tpope/vim-jdaddy.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-repeat"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-repeat
-	url = git@github.com:tpope/vim-repeat.git
+	url = https://github.com/tpope/vim-repeat.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-surround"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-surround
-	url = git@github.com:tpope/vim-surround.git
+	url = https://github.com/tpope/vim-surround.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-unimpaired"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-unimpaired
-	url = git@github.com:tpope/vim-unimpaired.git
+	url = https://github.com/tpope/vim-unimpaired.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-gitgutter"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-gitgutter
-	url = git@github.com:airblade/vim-gitgutter.git
+	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-fugitive"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-fugitive
-	url = git@github.com:tpope/vim-fugitive.git
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-rhubarb"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-rhubarb
-	url = git@github.com:tpope/vim-rhubarb.git
+	url = https://github.com/tpope/vim-rhubarb.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-airline"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-airline
-	url = git@github.com:vim-airline/vim-airline.git
+	url = https://github.com/vim-airline/vim-airline.git
 [submodule "nvim/.config/nvim/pack/bundle/start/fzf.vim"]
 	path = nvim/.config/nvim/pack/bundle/start/fzf.vim
-	url = git@github.com:junegunn/fzf.vim.git
+	url = https://github.com/junegunn/fzf.vim.git
 [submodule "nvim/.config/nvim/pack/bundle/start/ultisnips"]
 	path = nvim/.config/nvim/pack/bundle/start/ultisnips
-	url = git@github.com:SirVer/ultisnips.git
+	url = https://github.com/SirVer/ultisnips.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-snippets"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-snippets
-	url = git@github.com:honza/vim-snippets.git
+	url = https://github.com/honza/vim-snippets.git
 [submodule "nvim/.config/nvim/pack/bundle/start/deoplete.nvim"]
 	path = nvim/.config/nvim/pack/bundle/start/deoplete.nvim
-	url = git@github.com:Shougo/deoplete.nvim.git
+	url = https://github.com/Shougo/deoplete.nvim.git
 [submodule "nvim/.config/nvim/pack/bundle/start/nvim-lsp"]
 	path = nvim/.config/nvim/pack/bundle/start/nvim-lsp
-	url = git@github.com:neovim/nvim-lsp.git
+	url = https://github.com/neovim/nvim-lsp.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-prettier"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-prettier
-	url = git@github.com:prettier/vim-prettier.git
+	url = https://github.com/prettier/vim-prettier.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-obsession"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-obsession
-	url = git@github.com:tpope/vim-obsession.git
+	url = https://github.com/tpope/vim-obsession.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-test"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-test
-	url = git@github.com:vim-test/vim-test.git
+	url = https://github.com/vim-test/vim-test.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-jsx-pretty"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-jsx-pretty
-	url = git@github.com:MaxMEllon/vim-jsx-pretty.git
+	url = https://github.com/MaxMEllon/vim-jsx-pretty.git
 [submodule "nvim/.config/nvim/pack/bundle/start/editorconfig-vim"]
 	path = nvim/.config/nvim/pack/bundle/start/editorconfig-vim
-	url = git@github.com:editorconfig/editorconfig-vim.git
+	url = https://github.com/editorconfig/editorconfig-vim.git
