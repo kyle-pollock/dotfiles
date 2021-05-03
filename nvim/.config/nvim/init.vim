@@ -1,10 +1,5 @@
-set hlsearch
-set ignorecase
 set list
 set number
-set smartcase
-set updatetime=100
-set wildmode=full
 
 let g:deoplete#enable_at_startup = 1
 
@@ -13,8 +8,6 @@ nmap <silent> t<C-f> :TestFile<CR>
 nmap <silent> t<C-s> :TestSuite<CR>
 nmap <silent> t<C-l> :TestLast<CR>
 nmap <silent> t<C-g> :TestVisit<CR>
-
-nnoremap <C-p> :<C-u>FZF<CR>
 
 nnoremap <silent> gd    <cmd>lua vim.lsp.buf.declaration()<CR>
 nnoremap <silent> <c-]> <cmd>lua vim.lsp.buf.definition()<CR>
