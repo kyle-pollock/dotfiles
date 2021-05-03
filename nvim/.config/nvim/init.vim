@@ -1,5 +1,6 @@
 set list
 set number
+colorscheme gruvbox8
 
 let g:deoplete#enable_at_startup = 1
 
