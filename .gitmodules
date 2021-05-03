@@ -34,9 +34,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-airline"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-airline
 	url = https://github.com/vim-airline/vim-airline.git
-[submodule "nvim/.config/nvim/pack/bundle/start/fzf.vim"]
-	path = nvim/.config/nvim/pack/bundle/start/fzf.vim
-	url = https://github.com/junegunn/fzf.vim.git
 [submodule "nvim/.config/nvim/pack/bundle/start/ultisnips"]
 	path = nvim/.config/nvim/pack/bundle/start/ultisnips
 	url = https://github.com/SirVer/ultisnips.git
