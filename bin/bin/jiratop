@@ -1,2 +1,0 @@
-#!/bin/sh
-jira backlogged | head -n 1 | awk '{print $1}' | sed s/:// | xargs -I{} jira rank "$1" before {}
