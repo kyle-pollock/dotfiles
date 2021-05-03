@@ -1,4 +1,3 @@
-colorscheme gruvbox
 set hlsearch
 set ignorecase
 set list
