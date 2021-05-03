@@ -31,17 +31,6 @@ nnoremap <silent> gZ    <cmd>lua vim.lsp.diagnostic.show_line_diagnostics()<CR>
 
 lua << EOF
 lspconfig = require "lspconfig"
-lspconfig.gopls.setup{
-  cmd = {"gopls", "serve"},
-  settings = {
-    gopls = {
-      analyses = {
-        unusedparams = true,
-      },
-      staticcheck = true,
-      usePlaceholders = true,
-    },
-  },
-}
+lspconfig.gopls.setup{}
 lspconfig.tsserver.setup{}
 EOF
