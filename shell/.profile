@@ -5,5 +5,5 @@ export GOPATH="$HOME/go"
 export PAGER="less"
 export PATH="$HOME/bin:$GOBIN:$HOME/.local/bin:$PATH"
 export READER="zathura"
-export TERMINAL="alacritty"
+export TERMINAL="st"
 export FZF_DEFAULT_COMMAND='rg --files'
