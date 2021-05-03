@@ -1,6 +1,4 @@
 colorscheme gruvbox
-set termguicolors
-set background=dark
 set hlsearch
 set ignorecase
 set list
@@ -47,5 +45,4 @@ lspconfig.gopls.setup{
   },
 }
 lspconfig.tsserver.setup{}
-lspconfig.intelephense.setup{}
 EOF
