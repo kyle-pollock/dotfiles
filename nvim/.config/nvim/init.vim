@@ -2,6 +2,9 @@ set list
 set number
 colorscheme gruvbox8
 
+set path=.,**
+nnoremap <C-p> :find *
+
 let g:deoplete#enable_at_startup = 1
 
 nmap <silent> t<C-n> :TestNearest<CR>
