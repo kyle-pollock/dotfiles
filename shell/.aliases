@@ -1,8 +1,4 @@
 alias diff='diff --color=auto'
 alias grep='grep --color=auto'
 alias ls='ls --color=auto'
-alias pbcopy='xclip -selection clipboard'
 alias vim='nvim'
-alias edit='nvim'
-alias mail='neomutt'
-alias news='newsboat'
