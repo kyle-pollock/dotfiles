@@ -1,6 +1,3 @@
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-peekaboo"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-peekaboo
-	url = https://github.com/junegunn/vim-peekaboo.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-abolish"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-abolish
 	url = https://github.com/tpope/vim-abolish.git
