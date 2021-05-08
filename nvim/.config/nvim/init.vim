@@ -3,7 +3,8 @@ set number
 set path=.,,
 colorscheme gruvbox8_hard
 
-nnoremap <C-p> :find *
+nnoremap <C-P> :find *
+nnoremap <C-L> :nohlsearch<CR><C-L>
 
 let g:prettier#autoformat_require_pragma = 0
 let g:prettier#autoformat_config_present = 1
