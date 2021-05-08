@@ -1,6 +1,9 @@
 set list
 set number
+set path=.,,
 colorscheme gruvbox8_hard
+
+nnoremap <C-p> :find *
 
 let g:deoplete#enable_at_startup = 1
 
