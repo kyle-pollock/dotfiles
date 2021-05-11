@@ -34,3 +34,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-projectionist"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-projectionist
 	url = https://github.com/tpope/vim-projectionist.git
+[submodule "nvim/.config/nvim/pack/bundle/start/vim-rhubarb"]
+	path = nvim/.config/nvim/pack/bundle/start/vim-rhubarb
+	url = https://github.com/tpope/vim-rhubarb.git
