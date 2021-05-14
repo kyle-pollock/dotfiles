@@ -1,6 +1,5 @@
+syntax off
 set path=.,,
-colorscheme gruvbox8_hard
-
 nnoremap <C-P> :find *
 nnoremap <C-L> :nohlsearch<CR><C-L>
 
