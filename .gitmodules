@@ -28,9 +28,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/editorconfig-vim"]
 	path = nvim/.config/nvim/pack/bundle/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-gruvbox8"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-gruvbox8
-	url = https://github.com/lifepillar/vim-gruvbox8.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-projectionist"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-projectionist
 	url = https://github.com/tpope/vim-projectionist.git
