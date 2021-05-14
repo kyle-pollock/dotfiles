@@ -1,5 +1,3 @@
-set list
-set number
 set path=.,,
 colorscheme gruvbox8_hard
 
