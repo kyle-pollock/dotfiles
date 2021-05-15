@@ -19,9 +19,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-prettier"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-prettier
 	url = https://github.com/prettier/vim-prettier.git
-[submodule "nvim/.config/nvim/pack/bundle/start/vim-obsession"]
-	path = nvim/.config/nvim/pack/bundle/start/vim-obsession
-	url = https://github.com/tpope/vim-obsession.git
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-test"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-test
 	url = https://github.com/vim-test/vim-test.git
