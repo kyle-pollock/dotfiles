@@ -1,7 +1,9 @@
 syntax off
 set path=.,,
+
 nnoremap <C-P> :find *
 nnoremap <C-L> :nohlsearch<CR><C-L>
+nmap <silent> t<C-f> :make %<CR>
 
 let g:prettier#autoformat_require_pragma = 0
 let g:prettier#autoformat_config_present = 1
