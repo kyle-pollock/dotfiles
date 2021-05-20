@@ -1,7 +1,7 @@
 #!/usr/bin/bash
 
 export DISPLAY=:0
-export XAUTHORITY=/home/kpollock/.Xauthority
+export XAUTHORITY=/home/kap/.Xauthority
 
 MONITOR='DP-1'
 EXTERNAL_MONITOR_STATUS=$(cat /sys/class/drm/card0-$MONITOR/status )
