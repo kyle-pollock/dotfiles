@@ -1,6 +1,10 @@
+autoload -Uz compinit
+compinit
+
 PS1='%~ %# '
-HISTSIZE=100000
-SAVEHIST=100000
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
 
 GPG_TTY=$(tty)
 export GPG_TTY
