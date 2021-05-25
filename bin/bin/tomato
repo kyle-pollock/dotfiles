@@ -1,13 +1,8 @@
 #!/bin/sh
 
-duration=20m
-if [ $# -eq 1 ]; then
-  duration=$1
-fi
-
-termdown $duration
+sleep 1200
 if [ "$(uname)" == "Darwin" ]; then
-  osascript -e 'display alert "Tomato up!" message "🍅"'
+  osascript -e 'display alert "Tomato Up!" message "🍅"'
 else
   notify-send -u critical "🍅 Tomato Up! 🍅"
 fi
