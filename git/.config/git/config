@@ -2,26 +2,18 @@
 	email = kyle.pollock7@gmail.com
 	name = Kyle Pollock
 	signingkey = C16FB025FF5FEB2A37BAB8FDFCE3B90BD32BA81B
-[includeIf "gitdir:~/work/"]
-	path = ~/work/.gitconfig
 [core]
 	autocrlf = input
 [merge]
-	tool = vimdiff
+	tool = nvimdiff
+[diff]
+	tool = nvimdiff
 [color]
 	ui = true
-[diff]
-	tool = vimdiff
-[difftool]
-	prompt = false
 [github]
 	user = kyle-pollock
-[sendemail]
-	smtpserver = /usr/bin/msmtp
 [rerere]
 	enabled = true
-[hub]
-	protocol = ssh
 [commit]
 	gpgsign = true
 [pull]
