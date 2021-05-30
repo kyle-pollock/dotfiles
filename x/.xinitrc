@@ -1,7 +1,7 @@
 #!/bin/sh
 
 hotplug
-redshift -P -O 3000 &
+redshift -l 49.8844:-97.14704 &
 dunst &
 slstatus &
 exec dwm
