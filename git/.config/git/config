@@ -12,6 +12,8 @@
 	ui = true
 [github]
 	user = kyle-pollock
+[sendemail]
+	smtpserver = /usr/bin/msmtp
 [rerere]
 	enabled = true
 [commit]
