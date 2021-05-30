@@ -3,5 +3,5 @@
 ## Install
 
 ```
-stow -t ~/ $(ls -d */)
+stow --target ~/ $(ls --directory */)
 ```
