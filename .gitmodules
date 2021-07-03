@@ -28,3 +28,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/vim-rhubarb"]
 	path = nvim/.config/nvim/pack/bundle/start/vim-rhubarb
 	url = https://github.com/tpope/vim-rhubarb.git
+[submodule "nvim/.config/nvim/pack/bundle/start/vim-test"]
+	path = nvim/.config/nvim/pack/bundle/start/vim-test
+	url = https://github.com/vim-test/vim-test.git
