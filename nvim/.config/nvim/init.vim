@@ -1,9 +1,7 @@
-set path=.,,
 set termguicolors
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = 'hard'
 
-nnoremap <C-p> :find *
 nnoremap <C-l> :nohlsearch<CR><C-l>
 
 nmap <silent> t<C-n> :TestNearest<CR>
