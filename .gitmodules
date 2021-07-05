@@ -31,3 +31,12 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/gruvbox"]
 	path = nvim/.config/nvim/pack/bundle/start/gruvbox
 	url = https://github.com/gruvbox-community/gruvbox.git
+[submodule "nvim/.config/nvim/pack/bundle/start/popup.nvim"]
+	path = nvim/.config/nvim/pack/bundle/start/popup.nvim
+	url = https://github.com/nvim-lua/popup.nvim
+[submodule "nvim/.config/nvim/pack/bundle/start/plenary.nvim"]
+	path = nvim/.config/nvim/pack/bundle/start/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim
+[submodule "nvim/.config/nvim/pack/bundle/start/telescope.nvim"]
+	path = nvim/.config/nvim/pack/bundle/start/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim
