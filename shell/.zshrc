@@ -8,5 +8,3 @@ SAVEHIST=1000
 
 GPG_TTY=$(tty)
 export GPG_TTY
-
-alias vim='nvim'
