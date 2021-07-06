@@ -43,3 +43,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/nvim-treesitter"]
 	path = nvim/.config/nvim/pack/bundle/start/nvim-treesitter
 	url = https://github.com/nvim-treesitter/nvim-treesitter
+[submodule "nvim/.config/nvim/pack/bundle/start/nord-vim"]
+	path = nvim/.config/nvim/pack/bundle/start/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim.git
