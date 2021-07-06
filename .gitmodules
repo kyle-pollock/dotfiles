@@ -40,3 +40,6 @@
 [submodule "nvim/.config/nvim/pack/bundle/start/telescope.nvim"]
 	path = nvim/.config/nvim/pack/bundle/start/telescope.nvim
 	url = https://github.com/nvim-telescope/telescope.nvim
+[submodule "nvim/.config/nvim/pack/bundle/start/nvim-treesitter"]
+	path = nvim/.config/nvim/pack/bundle/start/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter
